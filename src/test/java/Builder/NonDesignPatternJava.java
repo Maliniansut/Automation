@@ -1,4 +1,4 @@
-package org.example;
+package Builder;
 
 public class NonDesignPatternJava {
     public void step1(){

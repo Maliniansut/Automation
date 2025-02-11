@@ -1,4 +1,4 @@
-package org.example;
+package Builder;
 
 public class HelloWorld {
     public static void main(String[] args) {
