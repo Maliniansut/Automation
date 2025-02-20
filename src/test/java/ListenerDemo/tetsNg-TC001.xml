@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ListenerDemo.CustomListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="/home/appinventiv/IdeaProjects/APIAutomationRestAssured/src/test/java/ListenerDemo/TC001.java">
+        <classes>
+            <class name="ListenerDemo.TC001">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                    <include name="test5"/>
+                    <include name="test6"/>
+                    <include name="test7"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
