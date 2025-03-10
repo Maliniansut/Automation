@@ -45,7 +45,7 @@ public class Mailer {
         // Replace these with actual values
         String fromEmail = "maliniansut@gmail.com";  // Your email
         String password = "123@Malini";  // Use your Gmail App Password if 2FA is enabled
-        String toEmail = "maliniansu@gmail.com";  // Recipient's email
+        String toEmail = "thakurbish07@gmail.com";  // Recipient's email
         String subject = "Hello Java";
         String message = "How are you?";
 
